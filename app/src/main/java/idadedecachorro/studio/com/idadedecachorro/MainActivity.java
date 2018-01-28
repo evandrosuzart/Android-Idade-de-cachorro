@@ -34,11 +34,10 @@ public class MainActivity extends AppCompatActivity {
                 }else{
 
                     int idade = Integer.parseInt(valorDigitado);
-                    int idadeHumano;
-                    idadeHumano=idade*7;
+                    int idadeHumano = idade*7;
 
-                    resultado.setText("A idade do cachoro é: "+idade+" anos, isso em anos humanos é igual a "+idade+" anos!");
-                    caixaTexto.selectAll();
+                    resultado.setText("A idade do cachoro é: "+idade+" anos, isso em anos humanos é igual a "+idadeHumano+" anos!");
+
                     caixaTexto.setText("");
                 }
                 }
